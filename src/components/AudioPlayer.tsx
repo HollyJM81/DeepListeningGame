@@ -1,0 +1,10 @@
+export function AudioPlayer() {
+  return (
+    <div className="mb-4">
+      <audio controls>
+        <source src="/audio/sample.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  );
+}
